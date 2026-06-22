@@ -31,7 +31,7 @@ $ ./run.sh
 New-ESCM-FE-Eksternal
 
 # Create the runner and start the configuration experience
-$ ./config.sh --url https://github.com/ANTAM-ICT/New-ESCM-FE-Eksternal --token CGQGZBTRR2GFZGFWARTRMNLKHEB52
+$ ./config.sh --url https://github.com/ANTAM-ICT/New-ESCM-FE-Eksternal --token CGQGZBTEU2PFBBDECA4GBSLKHEDG2
 $ ./run.sh
 
 New-ESCM-BE-Eksternal
