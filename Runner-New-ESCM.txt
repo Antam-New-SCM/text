@@ -1,0 +1,39 @@
+# Create a folder
+$ mkdir actions-runner && cd actions-runner# Download the latest runner package
+$ curl -o actions-runner-linux-x64-2.335.1.tar.gz -L https://github.com/actions/runner/releases/download/v2.335.1/actions-runner-linux-x64-2.335.1.tar.gzCopied!# Optional: Validate the hash
+$ echo "4ef2f25285f0ae4477f1fe1e346db76d2f3ebf03824e2ddd1973a2819bf6c8cf  actions-runner-linux-x64-2.335.1.tar.gz" | shasum -a 256 -c# Extract the installer
+$ tar xzf ./actions-runner-linux-x64-2.335.1.tar.gz
+
+
+# Create the runner and start the configuration experience
+$ ./config.sh --url https://github.com/ANTAM-ICT/Pipeline-New-ESCM --token BKPHJ2JCPT2FFB5VN3NFJDLKHDTX4# Last step, run it!
+$ ./run.sh
+
+# Use this YAML in your workflow file for each job
+runs-on: self-hosted
+
+
+New-ESCM-FE-Internal
+
+# Create the runner and start the configuration experience
+$ ./config.sh --url https://github.com/ANTAM-ICT/New-ESCM-FE-Internal --token BKPHJ2LMYRBOGWPJIEEBAGDKHDT7M# Last step, run it!
+$ ./run.sh
+
+New-ESCM-BE-Internal
+
+
+# Create the runner and start the configuration experience
+$ ./config.sh --url https://github.com/ANTAM-ICT/New-ESCM-BE-Internal --token BKPHJ2ITHATLOUSN37E6L6TKHDUEQ# Last step, run it!
+$ ./run.sh
+
+New-ESCM-FE-Eksternal
+
+# Create the runner and start the configuration experience
+$ ./config.sh --url https://github.com/ANTAM-ICT/New-ESCM-FE-Eksternal --token BKPHJ2IL6SCHPDPKW326FKLKHDUG4# Last step, run it!
+$ ./run.sh
+
+New-ESCM-BE-Eksternal
+
+# Create the runner and start the configuration experience
+$ ./config.sh --url https://github.com/ANTAM-ICT/New-ESCM-BE-Eksternal --token BKPHJ2IUUHSZDUDGGDIHUJTKHDUJK# Last step, run it!
+$ ./run.sh
