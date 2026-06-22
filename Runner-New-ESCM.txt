@@ -18,7 +18,7 @@ runs-on: self-hosted
 New-ESCM-FE-Internal
 
 # Create the runner and start the configuration experience
-$ ./config.sh --url https://github.com/ANTAM-ICT/New-ESCM-FE-Internal --token BKPHJ2LMYRBOGWPJIEEBAGDKHDT7M# Last step, run it!
+$ ./config.sh --url https://github.com/ANTAM-ICT/New-ESCM-FE-Internal --token CGQGZBQZSJNQCGBXKJ5MSV3KHEBNA
 $ ./run.sh
 
 New-ESCM-BE-Internal
